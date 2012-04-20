@@ -1,6 +1,0 @@
-.autotest
-HISTORY.rdoc
-Manifest.txt
-README.rdoc
-Rakefile
-lib/chromaprint.rb
