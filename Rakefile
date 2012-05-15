@@ -10,7 +10,7 @@ spec = Gem::Specification.new do |s|
   s.authors = 'Daniel Ceballos, Adam Rachman'
   s.version = '0.0.1'
   s.platform = Gem::Platform::RUBY
-  s.files = Dir.glob('lib/*.{rb,so,bundle}') 
+  s.files = Dir.glob('lib/**/*.{rb,so,bundle}') 
   s.extensions = FileList["ext/chromaprint/extconf.rb"]
 end
 
